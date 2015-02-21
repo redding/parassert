@@ -1,6 +1,6 @@
 # Parassert
 
-TODO: Write a gem description
+Custom Assert runner for running tests in parallel.
 
 ## Usage
 
