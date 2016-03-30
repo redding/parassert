@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version     = Parassert::VERSION
   gem.authors     = ["Kelly Redding", "Collin Redding"]
   gem.email       = ["kelly@kellyredding.com", "collin.redding@me.com"]
-  gem.description = %q{Custom Assert runner for running tests in parallel.}
   gem.summary     = %q{Custom Assert runner for running tests in parallel.}
+  gem.description = %q{Custom Assert runner for running tests in parallel.}
   gem.homepage    = "http://github.com/redding/parassert"
   gem.license     = 'MIT'
 
@@ -18,6 +18,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_development_dependency("assert", ["~> 2.12"])
+  gem.add_development_dependency("assert", ["~> 2.15.1"])
 
 end
